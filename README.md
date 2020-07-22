@@ -16,7 +16,8 @@ Step 2. Click on the Submit button to see the predicted results. The predicted r
 
 Note: You can download the Benchmark Datasets by clicking the Data link provided on the navigation bar.
 
-############ Some remarks on used python code files
+############ Some remarks on used python code files ###########
+
 The script in app.py is critical for controlling the overall functionality of the webserver. It includes all the necessary procedures that are used to interact with the user and perform operations requested upon input and navigations.
 
 The script in extractFeatures.py includes all the important procedures that compute the features from the given DNA sequences and make predictions based on the trained models using "enpred_1Model.pkl" and "enpred_2Model.pkl" files. Furthermore, this python script also includes all the implementations of processes used to implement statistical moments. 
